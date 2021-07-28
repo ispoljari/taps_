@@ -7,13 +7,13 @@ taps is a simple game made with Angular (12) and Ionic (5).
   <img src="images/restart.png" width="100" />
 </p>
 
-## My personal goals for this projects:
+## My personal goals for this project:
 - getting better with Angular
 - building something with the Canvas API
 - using Ionic to create web & hybrid mobile apps (game).
 - writting a detailed blog post about the process (idea, implementation, android & ios builds, release to Apple Store and Google Play)
 
-**Web:** https://thirsty-joliot-e0fcfd.netlify.app/ **(although this game isn't really designed for WEB gameplay)**
+**Web:** https://thirsty-joliot-e0fcfd.netlify.app/ **(best played on mobile device browsers)**
 
 **Android:** https://play.google.com/store/apps/details?id=io.ionic.taps&pli=1
 
