@@ -7,7 +7,7 @@ taps is a simple game made with Angular (12) and Ionic (5).
   <img src="images/restart.png" width="100" />
 </p>
 
-My personal goals for this projects:
+## My personal goals for this projects:
 - getting better with Angular
 - building something with the Canvas API
 - using Ionic to create web & hybrid mobile apps (game).
@@ -19,11 +19,11 @@ My personal goals for this projects:
 
 Apple Store release is coming real soon.
 
-Plans for next versions:
+## Plans for next versions:
 - add sounds (most of the logic is already implemented & sound assets are added)
 - add additional feedback based on scores
 
-Additional Info:
+## Additional Info:
 
 - This is just a (PoC) pet project. The code is not "clean" nor in its final form.
 
