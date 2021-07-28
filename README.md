@@ -13,7 +13,7 @@ taps is a simple game made with Angular (12) and Ionic (5).
 - using Ionic to create web & hybrid mobile apps (game).
 - writting a detailed blog post about the process (idea, implementation, android & ios builds, release to Apple Store and Google Play)
 
-**Web:** https://thirsty-joliot-e0fcfd.netlify.app/ **(This game isn't designed for WEB gameplay)**
+**Web:** https://thirsty-joliot-e0fcfd.netlify.app/ **(but this game isn't really designed for WEB gameplay)**
 
 **Android:** https://play.google.com/store/apps/details?id=io.ionic.taps&pli=1
 
