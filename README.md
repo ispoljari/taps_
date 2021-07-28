@@ -4,12 +4,8 @@ taps is a simple game made with Angular (12) and Ionic (5).
 
 <p float="left">
   <img src="images/start.png" width="100" />
+  <img src="images/restart.png" width="100" />
 </p>
-
-
-Start screen               |  Restart screen
-:-----------------------------:|:-------------------------:
-![Start screen](images/start.png "Start screen") | ![Restart screen](images/restart.png "Restart screen")
 
 My personal goals for this projects:
 - getting better with Angular
