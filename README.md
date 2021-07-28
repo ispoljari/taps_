@@ -13,7 +13,7 @@ My personal goals for this projects:
 - using Ionic to create web & hybrid mobile apps (game).
 - writting a detailed blog post about the process (idea, implementation, android & ios builds, release to Apple Store and Google Play)
 
-**Web:** https://thirsty-joliot-e0fcfd.netlify.app/ **(This game isn't really intended for WEB gameplay)**
+**Web:** https://thirsty-joliot-e0fcfd.netlify.app/ **(This game isn't designed for WEB gameplay)**
 
 **Android:** https://play.google.com/store/apps/details?id=io.ionic.taps&pli=1
 
