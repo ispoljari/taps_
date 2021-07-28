@@ -1,0 +1,8 @@
+<div class="container" [ngClass]="isStarted ? 'active' : ''">
+  <div class="start-screen">
+    <h1 class="heading">taps</h1>
+    <button class="start" tabindex="-1" (click)="!isStarted && handleClick()">
+      <h2>Start</h2>
+    </button>
+  </div>
+</div>

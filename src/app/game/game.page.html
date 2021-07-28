@@ -1,0 +1,21 @@
+<app-background
+  [speed]="isGameStarted ? speed.high : speed.low"
+></app-background>
+
+<app-sound-icon *ngIf="false"></app-sound-icon>
+
+<app-restart
+  *ngIf="isGameStarted && isCountdownFinnished"
+  (restartGame)="restartGame()"
+></app-restart>
+
+<app-start
+  @fadeOut
+  *ngIf="!isGameStarted"
+  (startGame)="startGame($event)"
+></app-start>
+
+<div @fadeIn *ngIf="isGameStarted" class="game-wrapper">
+  <app-timer class="game-timer"></app-timer>
+  <app-egg (firstFire)="handleFirstFire()"></app-egg>
+</div>

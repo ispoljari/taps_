@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <button
+    [@fire]="animState"
+    class="ball bubble"
+    (click)="!isCountdownFinnished && onClick()"
+    [class.instruction-font]="score === 0"
+    tabindex="-1"
+  >
+    <h2>
+      {{ score !== 0 ? score : instruction }}
+    </h2>
+  </button>
+</div>

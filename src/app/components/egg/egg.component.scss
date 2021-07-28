@@ -1,0 +1,115 @@
+.ball {
+  cursor: pointer;
+  display: inline-block;
+  width: 90%;
+  height: 100%;
+  border-radius: 100%;
+  border-width: 0;
+  position: relative;
+}
+
+.ball:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+  background: radial-gradient(circle at top, white, rgba(255, 255, 255, 0) 58%);
+  filter: blur(5px);
+  z-index: 2;
+}
+
+.ball:after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  border-radius: 100%;
+  filter: blur(1px);
+  z-index: 2;
+  transform: rotateZ(-30deg);
+}
+
+.ball.bubble {
+  background: radial-gradient(
+    circle at 30% 35%,
+    rgba(240, 245, 255, 0.9),
+    rgba(240, 245, 255, 0.9) 40%,
+    rgba(225, 238, 255, 0.8) 60%,
+    rgba(43, 130, 255, 0.4)
+  );
+}
+
+.ball.bubble:after {
+  display: block;
+  background: radial-gradient(
+    circle at 50% 80%,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0) 74%,
+    white 80%,
+    white 84%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.wrapper {
+  width: 230px;
+  height: 230px;
+  // margin-top: 50px;
+  perspective: 1200px;
+  perspective-origin: 50% 50%;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 500px) {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media (min-width: 800px) {
+    width: 270px;
+    height: 270px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+h2 {
+  font-size: 2.1rem;
+  color: #732b1e;
+
+  @media (min-width: 500px) {
+    font-size: 2.4rem;
+  }
+
+  @media (min-width: 800px) {
+    font-size: 2.7rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 3rem;
+  }
+}
+
+.instruction-font h2 {
+  font-size: 1.2rem;
+
+  @media (min-width: 500px) {
+    font-size: 1.4rem;
+  }
+
+  @media (min-width: 800px) {
+    font-size: 1.6rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.8rem;
+  }
+}

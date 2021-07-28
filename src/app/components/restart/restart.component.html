@@ -1,0 +1,21 @@
+<div
+  class="wrapper"
+  @fade
+  *ngIf="isVisible"
+  (@fade.start)="animationStarted()"
+  (@fade.done)="animationDone()"
+  tabindex="-1"
+>
+  <div class="content">
+    <button class="restart" (click)="onClick()">
+      <div class="strip">
+        <h2>RESTART</h2>
+      </div>
+    </button>
+    <div class="scores">
+      <div class="high-score">
+        <h2>HIGH SCORE: {{ highScore }}</h2>
+      </div>
+    </div>
+  </div>
+</div>

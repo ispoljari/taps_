@@ -1,0 +1,19 @@
+:host {
+  opacity: 0.8;
+}
+
+.volume-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.volume-wrapper button {
+  border: none;
+  background-color: transparent;
+  color: floralwhite;
+}
+
+.volume-wrapper button.disabled {
+  color: grey;
+}

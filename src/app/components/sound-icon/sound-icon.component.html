@@ -1,0 +1,8 @@
+<div class="volume-wrapper">
+  <button (click)="toggleSound()" [class.disabled]="!isAudioOn">
+    <ion-icon
+      size="large"
+      [name]="isAudioOn ? 'volume-high-outline' : 'volume-mute-outline'"
+    ></ion-icon>
+  </button>
+</div>

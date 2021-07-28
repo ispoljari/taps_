@@ -1,0 +1,88 @@
+:host {
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.heading {
+  font-size: 3rem;
+  color: #c84b31;
+
+  @media (min-width: 500px) {
+    font-size: 3.5rem;
+  }
+
+  @media (min-width: 800px) {
+    font-size: 4rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 4.5rem;
+  }
+}
+
+.heading,
+.start {
+  text-align: center;
+}
+
+.start {
+  position: relative;
+  padding: 10px 20px;
+
+  border: none;
+  outline: none;
+  background-color: rgb(59, 59, 59);
+
+  margin-top: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.start h2 {
+  font-size: 1.7rem;
+  color: white;
+
+  @media (min-width: 500px) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 800px) {
+    font-size: 2.3rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 2.6rems;
+  }
+}
+
+.active button {
+  position: relative;
+  animation: ripple-button 150ms linear;
+  transform: scale(1);
+}
+
+@keyframes ripple-button {
+  50% {
+    transform: scale(0.8);
+    background-color: #c84b31;
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgb(59, 59, 59);
+  }
+}
