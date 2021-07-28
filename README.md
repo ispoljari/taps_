@@ -25,10 +25,10 @@ Plans for next versions:
 
 Additional Info:
 
-This is just a (PoC) pet project. The code is not "clean" nor in its final form.
+- This is just a (PoC) pet project. The code is not "clean" nor in its final form.
 
-The background warp animation is done entirely with the Canvas API.
+- The background warp animation is done entirely with the Canvas API.
 
-The rest of the transitions are done by CSS (and some with the Angular Animations library).
+- The rest of the transitions are done by CSS (and some with the Angular Animations library).
 
-Ionic Native Storage API is used for high score persistence between sessions.
+- Ionic Native Storage API is used for high score persistence between sessions.
